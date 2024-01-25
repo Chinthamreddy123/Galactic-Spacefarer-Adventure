@@ -46,8 +46,9 @@ service.js, implemented a service to handle @before and @After event handlers
 @After,  implementing an email notification using nodemailer (npm install nodemailer), a welcome email will be triggered to Spacefarer. In real-time, we can use the 'SENDGRID', which requires the 'SENDGRID_API_KEY' and destination service.
 
 `package.json` | project metadata and configuration
-Maintained the sql database as a test db, in real time we will use Hana DB/Postgrey
-added the Mockusers
+
+Maintained the SQL database as a test database; in real-time, we will use Hana DB/PostgreSQL. Added the Mockusers as well 
+
 `readme.md` | this getting started guide
 
 
