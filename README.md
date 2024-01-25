@@ -19,12 +19,13 @@ CRUD Operations:
 
 CRUD options  have been activated, allowing users to perform these actions on Spacefarer entities.
 This implies that users can create new Spacefarers, edit existing ones, and delete Spacefarers as needed.
-Sorting and Filtering:
+
 
 The Fiori app supports sorting, allowing users to organize the list of Spacefarers based on specified criteria.
 Filtering is also supported, enabling users to narrow down the displayed Spacefarers based on certain conditions or criteria.
 
 `db/` | your domain models and data go here
+
 Created a .cds file schema under the DB folder, defining the following entities as part of the requirement:
 
 Spacefarers
@@ -34,6 +35,7 @@ Additionally, Created relationships for Spacefarers with Departments and Positio
 
 
 `srv/` | your service models and code go here
+
 Created service.cds and service.js files
 service.cds file, Defined a service to Expose an entity Spacefarers as a Odata service and added required authencation checks by using mock users in Package.json. In real time we will handle Authentication by creating Scopes and Role templetes in xs-security.json.
 
