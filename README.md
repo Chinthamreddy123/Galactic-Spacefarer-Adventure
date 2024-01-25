@@ -43,7 +43,7 @@ service.js, implemented a service to handle @before and @After event handlers
 
 @Before, Implemented a Validation to check stardustCollection and Navskill are not a special characters
 
-@After, Implemented a Email notification using nodemailer(npm install nodemailer) to the Sapacefarer will be triggered to welcome them to the space club. In real time we can use "SENDGRID" method wich requires SENDGRID_API_KEY and Destination service.
+@After,  implementing an email notification using nodemailer (npm install nodemailer), a welcome email will be triggered to Spacefarer. In real-time, we can use the 'SENDGRID', which requires the 'SENDGRID_API_KEY' and destination service.
 
 `package.json` | project metadata and configuration
 Maintained the sql database as a test db, in real time we will use Hana DB/Postgrey
