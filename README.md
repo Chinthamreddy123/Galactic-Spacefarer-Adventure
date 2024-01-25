@@ -17,7 +17,7 @@ Object Page:
 The Object Page is used to display detailed information about a specific Spacefarer when selected from the List Report.
 CRUD Operations:
 
-CRUD options (Create, Edit, Delete) have been activated, allowing users to perform these actions on Spacefarer entities.
+CRUD options  have been activated, allowing users to perform these actions on Spacefarer entities.
 This implies that users can create new Spacefarers, edit existing ones, and delete Spacefarers as needed.
 Sorting and Filtering:
 
@@ -40,7 +40,7 @@ service.cds file, Defined a service to Expose an entity Spacefarers as a Odata s
 service.js, implemented a service to handle @before and @After event handlers
 
 @Before, Implemented a Validation to check stardustCollection and Navskill are not a special characters
-@after, Implemented a Email notification using nodemailer to the Sapacefarer to welcome them to the space club. In real time we can use "SENDGRID" method wic required SENDGRID_API_KEY and Destination service.
+@after, Implemented a Email notification using nodemailer to the Sapacefarer will be triggered to welcome them to the space club. In real time we can use "SENDGRID" method wich requires SENDGRID_API_KEY and Destination service.
 
 `package.json` | project metadata and configuration
 Maintained the sql database as a test db, in real time we will use Hana DB/Postgrey
